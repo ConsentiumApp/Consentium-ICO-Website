@@ -250,7 +250,7 @@
     <h3>Platform for Communities</h3>
     <br>
     <br>
-    <a href="#" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="" target="_blank" class="android"><img src="img/android-btn.png" alt=""></a>
+    <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="" target="_blank" class="android"><img src="img/android-btn.png" alt=""></a>
     <br>
     <br>
     <br>
