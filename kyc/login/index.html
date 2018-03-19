@@ -1,0 +1,248 @@
+﻿
+
+<!doctype html>
+<html><head>
+	  
+<meta charset="UTF-8">
+<title>Consentium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap & Jquery -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="../../timeline.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/png" href="../../img/favicon.png"/>
+<link rel="stylesheet" type="text/css" href="../../jquery.flipcountdown.css" />
+<link href="../../magnific-popup.css" rel="stylesheet">
+<link href="../../sidemenu.css" rel="stylesheet">
+<link href="../../flexslider.css" rel="stylesheet" type="text/css" />
+<link href="../../media-queries.css" rel="stylesheet">
+<script src="../../js/jquery.magnific-popup.min.js"></script>
+<script src="../../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../../js/jquery.flipcountdown.js"></script>
+<script src="https://use.typekit.net/bkt6ydm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<style>
+.white-popup {
+	position: relative;
+	background: #252015;
+	width: auto;
+	max-width: 750px;
+	margin: 25px auto;
+	padding: 50px 25px;
+}
+.white-popup ul li {
+	margin: 5px 0;
+}
+.mfp-bg {
+	background: #ba933b;
+}
+.mfp-close-btn-in .mfp-close {
+	color: #ba933b;
+}
+.mfp-close {
+	font-size: 36px;
+}
+.mfp-content h2 {
+	color: #ba933b;
+}
+.mfp-content p {color:#837c6c;}
+</style>
+
+<!-- Add sidemenu -->
+<script>
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#menuToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#aboutToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#featuresToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#roadmapToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#mediaToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#teamToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#contactToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+</script>
+</head>
+
+<body>
+
+<!------------ Navigation start ------------>
+
+<div id="header">
+  <div class="container"> <span class="logo"><a href="#home">
+    <div id="logo"></div>
+    </a></span>
+    
+  </div>
+</div>
+
+<!------------ Navigation end ------------> 
+
+<!------------ Home banner start ------------>
+
+<section id="home">
+  
+  <div class="content">
+    <iframe name="kycframe" src="https://kyc.novum.capital/Consentium/login.cfm" frameborder="0" height="705" style="width:100%;clear:both;" ></iframe>
+  </div>
+</section>
+	
+<!------------ Home banner end ------------> 
+
+
+		<!------------ Footer start ------------>
+		<section id="footer">
+			<div class="container">
+				<!--<div class="row">
+					<div class="col-md-4 col-sm-3 v-pad">
+						<div class="footer-logo"><img src="../../img/logo.png" alt=""></div>
+					</div>
+					<div class="col-md-4 col-sm-6 v-pad">
+						<div style="text-align:center;">
+							<ul class="social">
+								<li><a href="https://www.facebook.com/profile.php?id=1545357085550769" target="_blank"><div class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://twitter.com/ConsentiumCoin" target="_blank"><div class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://t.me/consentiumofficial" target="_blank"><div class="social-icon"><i class="fa fa-send" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=2848892" target="_blank"><div class="social-icon"><i class="fa fa-btc" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://medium.com/@consentium" target="_blank"><div class="social-icon"><i class="fa fa-medium" aria-hidden="true"></i></div></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-3 v-pad">
+						<div class="copyright">
+							<span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
+							<br><br>
+							
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</section>
+		<!------------ Footer end ------------>
+
+
+</body>
+</html>

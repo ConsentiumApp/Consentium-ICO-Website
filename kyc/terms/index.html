@@ -1,0 +1,273 @@
+﻿
+
+<!doctype html>
+<html><head>
+	  
+<meta charset="UTF-8">
+<title>Consentium</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap & Jquery -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="../../timeline.css" rel="stylesheet" type="text/css" />
+<link href="../../style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/png" href="../../img/favicon.png"/>
+<link rel="stylesheet" type="text/css" href="../../jquery.flipcountdown.css" />
+<link href="../../magnific-popup.css" rel="stylesheet">
+<link href="../../sidemenu.css" rel="stylesheet">
+<link href="../../flexslider.css" rel="stylesheet" type="text/css" />
+<link href="../../media-queries.css" rel="stylesheet">
+<script src="../../js/jquery.magnific-popup.min.js"></script>
+<script src="../../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../../js/jquery.flipcountdown.js"></script>
+<script src="https://use.typekit.net/bkt6ydm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<style>
+.white-popup {
+	position: relative;
+	background: #252015;
+	width: auto;
+	max-width: 750px;
+	margin: 25px auto;
+	padding: 50px 25px;
+}
+.white-popup ul li {
+	margin: 5px 0;
+}
+.mfp-bg {
+	background: #ba933b;
+}
+.mfp-close-btn-in .mfp-close {
+	color: #ba933b;
+}
+.mfp-close {
+	font-size: 36px;
+}
+.mfp-content h2 {
+	color: #ba933b;
+}
+.mfp-content p {color:#837c6c;}
+</style>
+
+<!-- Add sidemenu -->
+<script>
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#menuToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#aboutToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#featuresToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#roadmapToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#mediaToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#teamToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#contactToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+  });
+})(jQuery);
+
+</script>
+</head>
+
+<body>
+
+<!------------ Navigation start ------------>
+
+<div id="header">
+  <div class="container"> <span class="logo"><a href="#home">
+    <div id="logo"></div>
+    </a></span>
+    
+  </div>
+</div>
+
+<!------------ Navigation end ------------> 
+
+<!------------ Home banner start ------------>
+
+<section >
+  
+  <div  style="text-align:left;padding-left:80px;padding-right:50px;background-color:rgba(0,0,0,0.8);padding-top:100px;">
+      <h3>Overall</h3>
+      <p>Entity “Asia Focus Group Pte Ltd” is the Company responsible for issuance of tokens.</p>
+      <h3>Important Notice</h3>
+      <p>The CONSENTIUM TOKENS are not securities or units in a collective investment scheme or business trust, each as defined under Singapore’s Securities and Futures Act (Cap. 289) (“SFA”). Accordingly, the SFA does not apply to the offer and sale of the CONSENTIUM TOKENS. For the avoidance of doubt, this initial offering of CONSENTIUM TOKENS need not be accompanied by any prospectus or profile statement and no prospectus or profile statement needs to be lodged with the Monetary Authority of Singapore (“MAS”).</p>
+      <p>This [White Paper/Crowdsale Document/business deck] does not constitute an offer of, or an invitation to purchase, the CONSENTIUM TOKENS in any jurisdiction in which such offer or sale would be unlawful. No regulatory authority in Singapore, including the MAS, has reviewed or approved or disapproved of the CONSENTIUM TOKENS or this [White Paper/Crowdsale Document/business deck]. This [White Paper/Crowdsale Document/business deck] and any part hereof may not be distributed or otherwise disseminated in any jurisdiction where offering tokens in the manner set out this [White Paper/Crowdsale Document/business deck] is regulated or prohibited.</p>
+      <p>The information in this [White Paper/Crowdsale Document/business deck] is current only as of the date on the cover hereof. For any time after the cover date of this [White Paper/Crowdsale Document/business deck], the information, including information concerning Asia Focus Group Pte Ltd’s business operations and financial condition may have changed. Neither the delivery of this [White Paper/Crowdsale Document/business deck] nor any sale made in the related initial token offering shall, under any circumstances, constitute a representation that no such changes have occurred. Asia Focus Group Pte Ltd does not make or purport to make, and hereby disclaims, any representation, warranty, undertaking, or other assurance in any form whatsoever to any person, including any representations, warranties, undertakings, or other assurances in relation to the truth, accuracy, or completeness of any part of the information in this[White Paper/Crowdsale Document/business deck].</p>
+      <p>Whether taken as a whole or read in part, this [White Paper/Crowdsale Document/business deck] is not, and should not be regarded as, any form of legal, financial, tax, or other professional advice. You should seek independent professional advice before making your own decision as to whether or not to purchase any CONSENTIUM TOKENS. You are responsible for any and all evaluations, assessments, and decisions you make in relation to investing in the CONSENTIUM TOKENS. You may request for additional information from Asia Focus Group Pte Ltd in relation to this offer of CONSENTIUM TOKENS. Asia Focus Group Pte Ltd may, but is not obliged to, disclose such information depending on whether (i) it is legal to do so and (ii) the requested information is reasonably necessary to verify the information contained in this [White Paper/Crowdsale Document/business deck].</p>
+      <p>CONSENTIUM TOKENS are intended for use within applications available on the Asia Focus Group Pte Ltd Network for purposes stated in the White Paper and Asia Focus Group Pte Ltd warrants that the CONSENTIUM TOKENS are fit for these purposes.</p>
+      <p>However, Asia Focus Group Pte Ltd is not responsible for compelling any person to accept CONSENTIUM TOKENS and disclaims, to the fullest extent permitted by law, all liability for any adverse consequences arising out of or in relation to such rejections of CONSENTIUM TOKENS.</p>
+      <p>Upon purchasing any CONSENTIUM TOKENS, you will be deemed to have reviewed this [White Paper/Crowdsale Document] (and any information requested and obtained from Asia Focus Group Pte Ltd) in full and to have agreed to the terms of this offering of CONSENTIUM TOKENS, including to the fact that this offering does not fall within the scope of any securities laws in Singapore and is not regulated by the MAS. You further acknowledge and agree that the CONSENTIUM TOKENS are not securities and are not meant to generate any form of investment return.</p>
+      <p>The CONSENTIUM TOKENS and related services provided by Asia Focus Group Pte Ltd (if any) are provided on an “as is” and “as available” basis. Asia Focus Group Pte Ltd does not grant any warranties or make any representation, express or implied or otherwise, as to the accessibility, quality, suitability, accuracy, adequacy, or completeness of the CONSENTIUM TOKENS or any related services provided by Asia Focus Group Pte Ltd, and expressly disclaims any liability for errors, delays, or omissions in, or for any action taken in reliance on, the CONSENTIUM TOKENS and related services provided by Asia Focus Group Pte Ltd. No warranty, including the warranties of non-infringement of third party rights, title, merchantability, satisfactory quality, or fitness for a particular purpose, is given in conjunction with the CONSENTIUM TOKENS and any related services provided by Asia Focus Group Pte Ltd.</p>
+      <h3>Token Disclaimer</h3>
+      <p>The Consentium Coin tokens are not securities under Singapore’s Securities and Futures Act (Cap 289) (“SFA”). They grant holders access to certain services within the Consentium ChatApp ecosystem. They are utility tokens whose entire value derives from the services provided by the Consentium ChatApp Network in exchange for holding or consumption of the tokens, as detailed here. They are not intended for speculation and hold no rights to intellectual or other property or cash flows. They are not equities, as they do not provide any fractional ownership rights in the company and no claim in decision making over company assets or strategy. There is no promise of value or claim on revenue associated with the Consentium Coin tokens, similar to debentures, other than that derived from platform usage. In short, PPN tokens are not equities, debentures or any form of securities as defined under the SFA.</p>
+      <h3>Regulatory Risks</h3>
+      <p>The regulation of tokens such as the CONSENTIUM TOKENS is still in a very nascent stage of development in Singapore. A high degree of uncertainty as to how tokens and token-related activities are to be treated exists. The applicable legal and regulatory framework may change subsequent to the date of issuance of this [White Paper/Crowdsale Document]. Such change may be very rapid and it is not possible to anticipate with any degree of certainty the nature of such regulatory evolution. Asia Focus Group Pte Ltd does not in any way represent that the regulatory status of the CONSENTIUM TOKENS will remain unaffected by any regulatory changes that arise at any point in time before, during, and after this offering.</p>
+      <h3>Tax Risks</h3>
+      <p>The tax characterization of CONSENTIUM TOKENS is unclear. Accordingly, the tax treatment to which they will be subject is uncertain. All persons who wish to purchase CONSENTIUM TOKENS should seek independent tax advice prior to deciding whether to purchase any CONSENTIUM TOKENS. Asia Focus Group Pte Ltd does not make any representation as to whether any tax consequences may arise from purchasing or holding CONSENTIUM TOKENS.</p>
+      <h3>Risk From Third Parties</h3>
+      <p>The tokenised nature of CONSENTIUM TOKENS means that they are a blockchain-based asset. The security, transferability, storage, and accessibility of blockchain assets depends on factors outside of Asia Focus Group Pte Ltd’s control, such as the security, stability, and suitability of the underlying blockchain (in this case, the Ethereum blockchain), mining attacks, and who has access to the private key of a wallet where CONSENTIUM TOKENS are stored. Asia Focus Group Pte Ltd is unable to assure that it can prevent such external factors from having any direct or indirect adverse impact on any of the CONSENTIUM TOKENS. Persons intending to purchase CONSENTIUM TOKENS should note that adverse events caused by such external factors may results in the loss of some or all CONSENTIUM TOKENS purchased. Such loss may be irreversible. Asia Focus Group Pte Ltd is not responsible for taking steps to retrieve CONSENTIUM TOKENS lost in this manner.</p>
+      <h3>Risks in purchasing CONSENTIUM TOKENS</h3>
+      <p>Asia Focus Group Pte Ltd cannot and does not guarantee or otherwise assure that there are no risks in relation to your purchase of CONSENTIUM TOKENS. The purchase of CONSENTIUM TOKENS may, depending on the manner in which the relevant purchase is effected, involve third parties or external platforms (e.g., wallets). The involvement of such parties or platforms may introduce risks that would not otherwise be present, such as misconduct or fraud by the third party, or your failure to receive CONSENTIUM TOKENS upon duly making payment because of a third-party wallet’s incompatibility with CONSENTIUM TOKENS. Asia Focus Group Pte Ltd is not responsible for any risks arising due to the involvement of third parties, including the risk of not receiving (or subsequently losing) any or all CONSENTIUM TOKENS you attempt to (or successfully) purchase.</p>
+      <h3>Disclaimer [Private Investor Deck]</h3>
+      <p>The information and opinions in this presentation are for general guidance only. The information in this presentation does not contain all of the information that may be required to evaluate a purchase of CONSENTIUM TOKENS. Persons considering investing in CONSENTIUM TOKENS are responsible for conducting their own due diligence on Asia Focus Group Pte Ltd and the CONSENTIUM TOKENS, and should ensure that they understand and are able to bear the risks of investing in CONSENTIUM TOKENS, including the risk of losing part or all of their investment.</p>
+      <p>The information and opinions in this presentation are, unless otherwise stated, current as of the date of this presentation. Asia Focus Group Pte Ltd (“Asia Focus Group Pte Ltd”) are not obliged to update or revise any information or the opinions expressed in this presentation as a result of new information, events occurring after the date of this presentation, or otherwise.</p>
+      <p>Certain statements made in this presentation may not be based on historical information or facts and may be “forward-looking statements”, including those relating to: (i) general business plans, timelines, and strategy; (ii) adoption projections; and (iii) developments in the industry, markets, or the competitive or regulatory environment. Actual results may differ materially from these forward-looking statements due to a number of factors, including future changes or developments in business, the competitive environment, or political, economic, legal, and social conditions.</p>
+      <br /><br /><br /><br />
+  </div>
+</section>
+	
+<!------------ Home banner end ------------> 
+
+
+		<!------------ Footer start ------------>
+		<section id="footer">
+			<div class="container">
+				<!--<div class="row">
+					<div class="col-md-4 col-sm-3 v-pad">
+						<div class="footer-logo"><img src="../../img/logo.png" alt=""></div>
+					</div>
+					<div class="col-md-4 col-sm-6 v-pad">
+						<div style="text-align:center;">
+							<ul class="social">
+								<li><a href="https://www.facebook.com/profile.php?id=1545357085550769" target="_blank"><div class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://twitter.com/ConsentiumCoin" target="_blank"><div class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://t.me/consentiumofficial" target="_blank"><div class="social-icon"><i class="fa fa-send" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://bitcointalk.org/index.php?topic=2848892" target="_blank"><div class="social-icon"><i class="fa fa-btc" aria-hidden="true"></i></div></a></li>
+								<li><a href="https://medium.com/@consentium" target="_blank"><div class="social-icon"><i class="fa fa-medium" aria-hidden="true"></i></div></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-3 v-pad">
+						<div class="copyright">
+							<span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
+							<br><br>
+							
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</section>
+		<!------------ Footer end ------------>
+
+
+</body>
+</html>

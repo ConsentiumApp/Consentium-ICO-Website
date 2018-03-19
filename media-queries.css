@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1200px) {
+
+.about-feature {
+	padding:30px;
+	height:280px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+ul#menu {
+	display:none;
+}
+
+.about-feature {
+	width:33.333%;
+	height:320px;
+}
+
+
+
+}
+
+
+@media (max-width: 768px) {
+
+body {font-size:14px;}
+h1 {font-size:43px;}
+h2 {font-size:25px;}
+h3 {font-size:16px;}
+
+.content {
+	padding-top:20%;
+}
+
+.content h1 {font-size:28px;}
+.content h2 {font-size:18px;}
+
+.coin img {width:90px; height:auto;}
+
+.about-feature {
+	width:100%;
+	padding:40px;
+	height:auto;
+}	
+
+.tokens-icon {
+	display:inline-block;
+}
+
+.tokens-container {
+	width:100%;
+}
+
+.roadmap-desktop {display:none;}
+.roadmap-mobile {display:block;}
+
+ul.tab li {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+ul.tab li a {
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	padding-top:15px;
+	font-size:30px;
+}
+
+.features-num {
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+.stats {width:31%;}
+
+.contactform {
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.footer-logo {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.copyright {
+	text-align:center;
+}
+
+.notify-container {
+	width:100%;
+}
+
+
+}
+
+@media (max-width: 500px) {
+	
+#home {
+	background-image:url(img/main.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.content {
+	background-color: rgba(0,0,0,0);
+}
+
+.background-wrap {display:none;}
+
+.stats {width:30%;}
+
+}
+
