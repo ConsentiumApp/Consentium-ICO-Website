@@ -938,11 +938,11 @@
   <div class="container">
     <h1>Get notified</h1>
     <div class="h-line" style="display:inline-block;"></div>
-<<<<<<< HEAD
     <div align="center">
       <iframe style="display:inline-block;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="780" height="233"></iframe>
-    </div>
-=======
+	  </div>
+	  
+<!-----
     <h4>Subscribe to get notified about our last updates.</h4>
     <br>
     <br>
@@ -995,7 +995,6 @@ function gtag_report_conversion(url) {
     </div>
     </form>
   </div>
->>>>>>> 0e3b83d1ee26bb6e228a8604f9d22daac5b04202
 </section>
 <!------------ Get notified end ------------> 
 
