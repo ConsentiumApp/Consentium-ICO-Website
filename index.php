@@ -1120,6 +1120,17 @@ function gtag_report_conversion(url) {
 <!---------- Popup 4 END ------------> 
 <!---------- Team Popup content end------------> 
 
+	<!---------- Privacy policy popup ------------>
+<div id="privacy" class="white-popup mfp-hide sans">
+  <h2>Privacy Policy</h2>
+  <br>
+  <br>
+  <p>By submitting your personal information to us, you consent to such information being used by us for the provision of the Services and also for us to communicate with you. </p>
+  <br>
+  <p>In the event if you do not agree for Consentium to process your data, please notify Consentium via email at <a style="color:#ba933b;" href="mailto:hello@consentium.net">hello@consentium.net.</a></p>
+</div>
+<!---------- Privacy policy popup END ------------>
+	
 <script>
 $(window).scroll(function() {
   var addRemClass = $(window).scrollTop() > 0 ? 'addClass' : 'removeClass';
