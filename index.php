@@ -939,7 +939,7 @@
     <h1>Get notified</h1>
     <div class="h-line" style="display:inline-block;"></div>
     <div align="center">
-      <iframe style="display:inline-block;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="780" height="233"></iframe>
+      <iframe style="display:inline-block;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="250" height="233"></iframe>
 	  </div>
 	  
 <!-----
