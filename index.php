@@ -245,9 +245,8 @@
     <div class="coin"><img src="img/icon-c.png" width="180" height="210" alt=""></div>
     <br>
     <br>
-    <h1>Multi Digital Currency & <br>
-      Group Monetisation Chat Application</h1>
-    <h3>Platform for Communities</h3>
+    <h1>Platform for Communities</h1>
+    <h3>Where Users Earn from Group Chats They Create</h3>
     <br>
     <br>
     <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="" target="_blank" class="android"><img src="img/android-btn.png" alt=""></a>
