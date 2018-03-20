@@ -1057,9 +1057,11 @@ function gtag_report_conversion(url) {
       <div class="col-md-4 col-sm-3 v-pad">
         <div class="copyright">
           <span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
+		<br><br>
+          <span class="small-font"><a href="#privacy" class="open-popup-link" style="color:#ba933b;">Privacy Policy</a></span>
           <br><br>
           <!--- disable policies 
-          <span class="small-font">Privacy Policy &nbsp;| &nbsp;Terms of Service</span>]
+          <span class="small-font">Terms of Service</span>]
           -->
         </div>
       </div>
