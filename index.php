@@ -932,16 +932,15 @@
 </section>
 <!------------ Team end ------------> 
 
-<!------------ Get notified start ------------> 
+<!------------ Get notified start  ------------>
 <section id="notify">
   <div class="container">
-    <h1>Get notified</h1>
+    <div class="notify-container">
+    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="100%" height="233"></iframe>
+    </div>
+  
+    <!--<h1>Get notified</h1>
     <div class="h-line" style="display:inline-block;"></div>
-    <div align="center">
-      <iframe style="display:inline-block;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="100%" height="100%"></iframe>
-	  </div>
-	  
-<!-----
     <h4>Subscribe to get notified about our last updates.</h4>
     <br>
     <br>
@@ -960,7 +959,7 @@
         <div class="col-md-12 col-sm-12 v-pad">
           <button type='submit' value='Submit' >Submit <!-- Event snippet for Get_Notified conversion page
 
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.
 
 <script>
 
@@ -992,7 +991,7 @@ function gtag_report_conversion(url) {
         </div>
       </div>
     </div>
-    </form>
+    </form>-->
   </div>
 </section>
 <!------------ Get notified end ------------> 
@@ -1366,3 +1365,4 @@ twq('track','PageView');
 
 </body>
 </html>
+>
