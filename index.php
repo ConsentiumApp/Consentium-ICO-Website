@@ -936,6 +936,8 @@
 <section id="notify">
   <div class="container">
     <div class="notify-container">
+	        <h1>Get Notified</h1>
+    <div class="h-line" style="display:inline-block;"></div>
     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="100%" height="233"></iframe>
     </div>
   
