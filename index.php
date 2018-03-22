@@ -249,7 +249,7 @@
     <h3>Where Users Earn from Group Chats They Create</h3>
     <br>
     <br>
-    <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" target="_blank"><img src="img/android-btn.png" class="android" alt=""></a>
+    <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" class="android" target="_blank"><img src="img/android-btn.png" alt=""></a>
     <br>
     <br>
     <br>
