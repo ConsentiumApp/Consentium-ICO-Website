@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link href="../timeline.css" rel="stylesheet" type="text/css" />
-<link href="../style.css" rel="stylesheet" type="text/css" />
+<link href="../style3.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" type="image/png" href="../img/favicon.png"/>
 <link rel="stylesheet" type="text/css" href="../jquery.flipcountdown.css" />
 <link href="../magnific-popup.css" rel="stylesheet">
@@ -231,7 +231,7 @@
     <h3>专为社区而立的平台</h3>
     <br>
     <br>
-    <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a>
+    <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" target="_blank"><img src="../img/android-btn.png" class="android" alt=""></a>
     <br>
     <br>
     <br>
