@@ -231,7 +231,7 @@
     <h3>专为社区而立的平台</h3>
     <br>
     <br>
-    <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" target="_blank"><img src="../img/android-btn.png" class="android" alt=""></a>
+    <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" class="android" target="_blank"><img src="../img/android-btn.png" alt=""></a>
     <br>
     <br>
     <br>
