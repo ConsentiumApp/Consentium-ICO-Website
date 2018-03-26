@@ -25,6 +25,8 @@
 <script type="text/javascript" src="js/jquery.flipcountdown.js"></script>
 <script src="https://use.typekit.net/bkt6ydm.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	<meta name="google-site-verification" content="XgdkddUt62liRdVlMvbqCDRDUZYqSvMnbHhqIGgqKs8" />
 
 <!-- Global site tag (gtag.js) - Google AdWords: 817801534 -->
 
