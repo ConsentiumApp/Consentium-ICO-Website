@@ -597,14 +597,32 @@ button[type="submit"]:hover
   background-color:#fff;
 }
 
-#notify button[type="submit"]
+#notify button
+{  
+color:#b28c36;
+text-align:center;
+background:#2a251a;
+border-radius:0px;
+border:none;
+        width: 165px;
+        padding:20px 0;
+        cursor: pointer; 
+		transition:0.3s;
+		font-size:15px;
+		text-transform:uppercase;
+		font-family: 'Montserrat', sans-serif; 
+		letter-spacing:1px;
+		font-weight:400;
+}
+
+#notify button
 {  
 color:#fff;
 text-align:center;
 background:#ba933b;
 }
 
-#notify button[type="submit"]:hover
+#notify button:hover
 {  
   background-color:#fff;
   color:#ba933b;

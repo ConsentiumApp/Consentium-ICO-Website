@@ -940,17 +940,12 @@
     <div class="notify-container">
 	        <h1>Get Notified</h1>
     <div class="h-line" style="display:inline-block;"></div>
-    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" align="center" src="https://app.mailjet.com/widget/iframe/2RvV/5JG" width="100%" height="233"></iframe>
-    </div>
-  
-    <!--<h1>Get notified</h1>
-    <div class="h-line" style="display:inline-block;"></div>
     <h4>Subscribe to get notified about our last updates.</h4>
     <br>
     <br>
     <div class="contactform">
     <div class="notify-messages"></div>
-    <form id='notified' class="ajax-notify" action='mailer.php' method='post' accept-charset='UTF-8'>
+    <form id='notified' class="ajax-notify" action='subcribe-mail.php' method='post' accept-charset='UTF-8'>
       <input type='hidden' name='submitted' id='submitted' value='1'/>
       <input type="hidden" name="type" value="notify" />
       <div class="row">
@@ -961,43 +956,16 @@
           <input type='email' class="input-style" name='email' id='notify_email' value='' placeholder="Email Address *" required />
         </div>
         <div class="col-md-12 col-sm-12 v-pad">
-          <button type='submit' value='Submit' >Submit <!-- Event snippet for Get_Notified conversion page
-
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button.
-
-<script>
-
-function gtag_report_conversion(url) {
-
-  var callback = function () {
-
-    if (typeof(url) != 'undefined') {
-
-      window.location = url;
-
-    }
-
-  };
-
-  gtag('event', 'conversion', {
-
-      'send_to': 'AW-817801534/OdqVCKD8tXwQvtL6hQM',
-
-      'event_callback': callback
-
-  });
-
-  return false;
-
-}
-
-</script></button>
+          <button type="submit" value='Submit' name="submit">Submit</button>
         </div>
       </div>
-    </div>
-    </form>-->
+    </form>
   </div>
+</div>
+</div>
 </section>
+
+</script>
 <!------------ Get notified end ------------> 
 
 <!------------ Contact start ------------> 
@@ -1259,30 +1227,35 @@ function openCity(evt, cityName) {
                 })
                 .done(function(response) {
                     // Make sure that the formMessages div has the 'success' class.
-                    $(notifyMessages).removeClass('alert alert-danger');
-                    $(notifyMessages).addClass('alert alert-info');
+                    var json = JSON.parse(response);
+                    if (json.status == "success") {
+                      $(notifyMessages).removeClass('alert alert-danger');
+                      $(notifyMessages).addClass('alert alert-info');
 
-                    // Set the message text.
-                    $(notifyMessages).text(response);
+                      // Set the message text.
+                      $(notifyMessages).text(json.message);
 
-                    // Clear the form.
-                    $('#notify_name').val('');
-                    $('#notify_email').val('');
+                      // Clear the form.
+                      $('#notify_name').val('');
+                      $('#notify_email').val('');
+                    } else {
+                      $(notifyMessages).removeClass('alert alert-info');
+                      $(notifyMessages).addClass('alert alert-danger');
 
+                      // Set the message text.
+                      if (json.message !== '') {
+                          $(notifyMessages).text(json.message);
+                      } else {
+                          $(notifyMessages).text('Oops! An error occured and your message could not be sent.');
+                      }
+                    }
                 })
                 .fail(function(data) {
                     // Make sure that the notifyMessages div has the 'error' class.
-                    $(notifyMessages).removeClass('alert alert-info');
-                    $(notifyMessages).addClass('alert alert-danger');
-
-                    // Set the message text.
-                    if (data.responseText !== '') {
-                        $(notifyMessages).text(data.responseText);
-                    } else {
-                        $(notifyMessages).text('Oops! An error occured and your message could not be sent.');
-                    }
+                   
                 });
-        });
+                    
+            });
 
         // Contact Us
         var contactForm = $('.ajax-contact');
