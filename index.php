@@ -35,7 +35,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5B2ZV6V');</script>
 <!-- End Google Tag Manager -->
-
+	
+<!-- Event snippet for Get_Notified_1 conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-817801534/B7j6COHD1X8QvtL6hQM',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+	
+	
 <!-- Global site tag (gtag.js) - Google AdWords: 817801534 -->
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-817801534"></script>
