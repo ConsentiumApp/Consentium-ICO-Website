@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {text-decoration: none;  }
+
+
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  height: 200%;
+  position: fixed;
+  right: -250px;
+  -moz-transition: right 0.2s linear;
+  -o-transition: right 0.2s linear;
+  -webkit-transition: right 0.2s linear;
+  transition: right 0.2s linear;
+  width: 250px;
+  z-index: 9001;/* IT'S OVER 9000! */
+  display:none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+nav #menuToggle {
+  background: transparent;
+  display: block;
+  position: relative;
+  height: 40px;
+  left: -75px;
+  top: 65px;
+  width: 50px;
+}
+
+nav #menuToggle.bgChange {
+
+}
+
+nav #menuToggle span {
+  background: #fff;
+  display: block;
+  height: 10%;
+  left: 10%;
+  position: absolute;
+  top: 45%;
+  width: 80%;
+}
+
+nav #menuToggle span.black {
+  background: #333333;
+}
+
+nav #menuToggle span:before,
+nav #menuToggle span:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: -250%;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  width: 100%;
+}
+
+nav #menuToggle span.black:before,
+nav #menuToggle span.black:after {
+  background: #333333;
+}
+
+nav #menuToggle span:after { top: 250%; }
+
+nav a:nth-child(n+2) {
+  display: block;
+  font-size:22px;
+  text-transform:uppercase;
+  padding: 20px 0 20px 33px;
+  color:#fff;
+}
+
+nav a:nth-child(n+2):hover {
+  text-decoration:none;
+  transition:all linear 0.15s;
+  color:#ba933b;
+}
+
+nav a:nth-child(n+2):after {
+  
+  content: '';
+  display: block;
+  height: 2px;
+  -moz-transition: width 0.2s;
+  -o-transition: width 0.2s;
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
+  width: 0;
+}
+
+
+
+.open { right: 0; }
+
+.open #menuToggle span {
+  background: transparent;
+  left: 10%;
+  top: 45%;
+}
+
+.open #menuToggle span.black {
+  background: transparent;
+}
+
+.open #menuToggle span:before,
+.open #menuToggle span:after {
+  background: #fff;
+  top: 0;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.open #menuToggle span:after {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#menuToggle .navClosed {
+  -moz-transition: background 0.1s linear;
+  -o-transition: background 0.1s linear;
+  -webkit-transition: background 0.1s linear;
+  transition: background 0.1s linear;
+}
+
+#menuToggle .navClosed:before,
+#menuToggle .navClosed:after {
+  -moz-transition: top 0.2s linear 0.1s, -moz-transform 0.2s linear 0.1s;
+  -o-transition: top 0.2s linear 0.1s, -o-transform 0.2s linear 0.1s;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s linear;
+  -webkit-transition-delay: 0.1s, 0.1s;
+  transition: top 0.2s linear 0.1s, transform 0.2s linear 0.1s;
+}
+
+#menuToggle .navOpen {
+  -moz-transition: background 0.1s linear 0.2s;
+  -o-transition: background 0.1s linear 0.2s;
+  -webkit-transition: background 0.1s linear;
+  -webkit-transition-delay: 0.2s;
+  transition: background 0.1s linear 0.2s;
+}
+
+#menuToggle .navOpen:before,
+#menuToggle .navOpen:after {
+  -moz-transition: top 0.2s linear, -moz-transform 0.2s linear;
+  -o-transition: top 0.2s linear, -o-transform 0.2s linear;
+  -webkit-transition: top 0.2s linear, -webkit-transform 0.2s linear;
+  transition: top 0.2s linear, transform 0.2s linear;
+}
+
+
+
+@media (max-width: 768px) { 
+	
+nav {
+  display:block;
+}
+
+nav #menuToggle {
+    height: 30px;
+    left: -65px;
+    top: 20px;
+    width: 40px;
+}
+	
+nav #menuToggle.bgChange {
+    top: 10px;
+}
+	
+}
+
+
+@media screen and (min-device-width : 300px) and (max-width: 480px) {
+
+nav {
+  position: fixed;
+  width: 160px;
+  right: -160px; 
+}
+
+nav a:nth-child(n+2) {
+  font-size: 16px;
+}
+	
+}

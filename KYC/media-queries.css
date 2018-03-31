@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 1200px) {
+
+.about-feature {
+	padding:30px;
+	height:280px;
+}
+
+}
+
+@media (max-width: 991px) {
+
+.about-feature {
+	width:33.333%;
+	height:320px;
+}
+
+.tokensale {
+	padding-top:18%;
+}
+
+.tokensale .stats {width:227px;}
+
+.step-container {
+    width: 100%;
+    padding-left: 60px;
+}
+
+.step-line {
+    width: 250px;
+}
+
+.step-title {
+	width:100%;
+	text-align:center;
+}
+
+.step-title h3 {font-size:14px;}
+
+.terms {
+	width:90px;
+	margin-left:35px;
+}
+
+.basic-info {
+	width:90px;
+	margin-left:190px;
+}
+
+.identity {
+    width: 90px;
+    margin-left: 190px;
+}
+
+}
+
+
+@media (max-width: 768px) {
+	
+ul#menu {
+	display:none;
+}
+
+body {font-size:14px;}
+h1 {font-size:43px;}
+h2 {font-size:25px;}
+h3 {font-size:16px;}
+
+.content {
+	padding-top:20%;
+}
+
+.content h1 {font-size:28px;}
+.content h2 {font-size:18px;}
+
+.coin img {width:90px; height:auto;}
+
+.about-feature {
+	width:100%;
+	padding:40px;
+	height:auto;
+}	
+
+.tokens-icon {
+	display:inline-block;
+}
+
+.tokens-container {
+	width:100%;
+}
+
+.roadmap-desktop {display:none;}
+.roadmap-mobile {display:block;}
+
+ul.tab li {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+ul.tab li a {
+	width:60px;
+	height:60px;
+	border-radius:60px;
+	padding-top:15px;
+	font-size:30px;
+}
+
+.features-num {
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+}
+
+.stats {width:31%;}
+.tokensale .stats {width:31%;}
+
+.contactform {
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.footer-logo {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.copyright {
+	text-align:center;
+}
+
+.notify-container {
+	width:100%;
+}
+
+.tokensale {
+	padding-top:22%;
+}
+
+#regForm {
+  width: 100%;
+}
+
+.step-container {
+    padding-left: 50px;
+	width:480px;
+}
+
+.step-line {
+    width: 150px;
+}
+
+.step-title {
+	width:480px;
+}
+
+.terms {
+    margin-left: 20px;
+}
+
+.basic-info {
+	margin-left:90px;
+}
+
+.identity {
+    margin-left: 90px;
+}
+
+.token-btn {
+	border:none;
+}
+
+}
+
+@media (max-width: 500px) {
+	
+#home {
+	background-image:url(img/main.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.content {
+	background-color: rgba(0,0,0,0);
+}
+
+.background-wrap {display:none;}
+
+.stats {width:30%;}
+.tokensale .stats {width:30%;}
+
+.step-container {
+    padding-left: 10px;
+	width:320px;
+}
+
+.step {
+	width:20px;
+	height:20px;
+}
+
+.step-line {
+    width: 120px;
+	margin-top:10px;
+}
+
+.step-title {
+	width:340px;
+}
+
+.terms {
+	width:70px;
+    margin-left: 0px;
+}
+
+.basic-info {
+	width:70px;
+	margin-left:65px;
+}
+
+.identity {
+	width:70px;
+    margin-left: 65px;
+}
+
+}
+

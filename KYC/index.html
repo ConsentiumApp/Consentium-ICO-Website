@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Consentium - Token Sale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap & Jquery -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<link rel="stylesheet" type="text/css" href="jquery.flipcountdown.css" />
+<link href="sidemenu.css" rel="stylesheet">
+<link href="media-queries.css" rel="stylesheet">
+
+<script type="text/javascript" src="js/jquery.flipcountdown.js"></script>
+<script src="https://use.typekit.net/bkt6ydm.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+<!-- Add sidemenu -->
+<script>
+(function($){
+	// Menu Functions
+	$(document).ready(function(){
+  	$('#menuToggle').click(function(e){
+    	var $parent = $(this).parent('nav');
+      $parent.toggleClass("open");
+      var navState = $parent.hasClass('open') ? "hide" : "show";
+      $(this).attr("title", navState + " navigation");
+			// Set the timeout to the animation length in the CSS.
+			setTimeout(function(){
+				console.log("timeout set");
+				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+			}, 200);
+    	e.preventDefault();
+  	});
+    if(getCookie('email') == '') {
+      $(".logout").hide();
+      $(".login").show();
+    } else {
+      $(".login").hide();
+      $(".logout").show();
+      var name = getCookie('email').split('%');
+      document.getElementById("greeting").innerHTML = "Hi, " + name[0];
+    }
+
+  });
+})(jQuery);
+
+function getCookie(key) {
+  var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+  return keyValue ? keyValue[2] : null;
+}
+
+function logOut(){
+    document.cookie = "email=";
+    window.open("index.html", "_self");
+}
+</script>
+
+</head>
+
+<body>
+
+<!------------ Navigation start ------------>
+<div id="header">
+  <div class="container"> <span class="logo"><a href="#home">
+    <a href="index.html"><div id="logo"></div></a>
+    </a></span>
+    <ul id="menu" class="login">
+      <!-- <li><a href="">About</a></li> -->
+      <li><a href="sign-up.php">Sign Up</a></li>      
+      <li><a href="sign-in.php" class="token-btn">Sign In</a></li>
+    </ul>
+    <ul id="menu" class="logout" style="margin-top: 15px; display: none;">
+      <!-- <li><a href="#">About</a></li> -->
+      <li id="greeting">Hi, John</li>      
+      <li><input type="button" onclick="logOut()" class="token-btn" value = "Log out"></li>
+    </ul>
+    <!-- <nav> 
+      <a href="" id="menuToggle" title="show menu"> <span class="navClosed"></span> </a>
+      <a href="">About</a>
+      <a href="sign-up.php">Sign Up</a>
+      <a href="sign-in.php" class="token-btn">Sign In</a>
+    </nav> -->
+  </div>
+</div>
+<!------------ Navigation end ------------>
+<!------------ Token sale start ------------>
+<section class="tokensale">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h1>Token Sale <span style="color:#ba933b;">is now live</span></h1>
+        <br>
+      <br>
+      <div id="new_year"></div>
+    <br>
+    <ul class="countdown">
+      <li class="days">
+        <h3>Days</h3>
+      </li>
+      <li class="hrs">
+        <h3>Hrs</h3>
+      </li>
+      <li class="mins">
+        <h3>Min</h3>
+      </li>
+      <li class="sec">
+        <h3>Sec</h3>
+      </li>
+    </ul>
+    <br>
+    <br>
+    <div class="progress-container">
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      </div>
+    </div>
+    <ul class="progress-number">
+      <li class="stats">Start</li>
+      <li class="stats">1M</li>
+      <li class="stats">5M</li>
+      <li>12M</li>
+    </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <a href="step.php" target="_self" class="btn light-btn">Get Tokens</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------ Token sale end ------------>
+<div class="about-feature dark-feature">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+    <br>
+    <br>
+    <br>
+    <h3>High level chat encryption</h3>
+    <p>High level chat encryption via SHA-256 hash algorithm</p>
+  </div>
+  <div class="about-feature light-feature">
+    <i class="fa fa-shield" aria-hidden="true"></i>
+    <br>
+    <br>
+    <br>
+    <h3>Low fee & secure</h3>
+    <p>Low-fee, secure C2C digital cryptocurrency transfers</p>
+  </div>
+  <div class="about-feature dark-feature">
+    <i class="fa fa-exchange" aria-hidden="true"></i>
+    <br>
+    <br>
+    <br>
+    <h3>Conversion</h3>
+    <p>Conversion from Fiat to BTC/ETH/CONSENTIUM</p>
+  </div>
+  <div class="about-feature light-feature">
+    <i class="fa fa-dollar" aria-hidden="true"></i>
+    <br>
+    <br>
+    <br>
+    <h3>Multi-currency</h3>
+    <p>Multi-currency crypto wallet</p>
+  </div>
+  <div class="about-feature dark-feature">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+    <br>
+    <br>
+    <br>
+    <h3>CCM</h3>
+    <p>Chat Community Monetisation Model (CCM) automated engine</p>
+  </div>
+  <div style="clear:both"></div>
+  
+<!------------ Footer start ------------> 
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-3 v-pad">
+        <div class="footer-logo"><img src="img/logo.png" alt=""></div>
+      </div>
+      <div class="col-md-4 col-sm-6 v-pad">
+        <div style="text-align:center;">
+          <ul class="social">
+            <li><a href="https://www.facebook.com/profile.php?id=1545357085550769" target="_blank"><div class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+            <li><a href="https://twitter.com/ConsentiumCoin" target="_blank"><div class="social-icon"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+						<li><a href="https://t.me/consentiumofficial" target="_blank"><div class="social-icon"><i class="fa fa-send" aria-hidden="true"></i></div></a></li>
+						<li><a href="https://bitcointalk.org/index.php?topic=2848892" target="_blank"><div class="social-icon"><i class="fa fa-btc" aria-hidden="true"></i></div></a></li>
+            <li><a href="https://medium.com/@consentium" target="_blank"><div class="social-icon"><i class="fa fa-medium" aria-hidden="true"></i></div></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-3 v-pad">
+        <div class="copyright">
+          <span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
+          <br><br>
+          
+          <!--<span class="small-font">Privacy Policy &nbsp;| &nbsp;Terms of Service</span>-->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------ Footer end ------------>
+
+<script>
+$(window).scroll(function() {
+  var addRemClass = $(window).scrollTop() > 0 ? 'addClass' : 'removeClass';
+    $("#header")[addRemClass]('bgChange');
+});
+
+</script> 
+
+<script>
+	jQuery(function($){
+		//var NY = Math.round((new Date('1/01/2015 00:00:01')).getTime()/1000);
+		$('#new_year').flipcountdown({
+			size:'md',
+			beforeDateTime:'03/30/2018 00:00:01'
+			/*tick:function(){
+				var nol = function(h){
+					return h>9?h:'0'+h;
+				}
+				var	range  	= NY-Math.round((new Date()).getTime()/1000),
+					secday = 86400, sechour = 3600,
+					days 	= parseInt(range/secday),
+					hours	= parseInt((range%secday)/sechour),
+					min		= parseInt(((range%secday)%sechour)/60),
+					sec		= ((range%secday)%sechour)%60;
+				return nol(days)+' '+nol(hours)+' '+nol(min)+' '+nol(sec);
+			}*/
+		});
+	});
+	
+</script>
+
+<script>
+(function(d){d.each(["backgroundColor","borderBottomColor","borderLeftColor","borderRightColor","borderTopColor","color","outlineColor"],function(f,e){d.fx.step[e]=function(g){if(!g.colorInit){g.start=c(g.elem,e);g.end=b(g.end);g.colorInit=true}g.elem.style[e]="rgb("+[Math.max(Math.min(parseInt((g.pos*(g.end[0]-g.start[0]))+g.start[0]),255),0),Math.max(Math.min(parseInt((g.pos*(g.end[1]-g.start[1]))+g.start[1]),255),0),Math.max(Math.min(parseInt((g.pos*(g.end[2]-g.start[2]))+g.start[2]),255),0)].join(",")+")"}});function b(f){var e;if(f&&f.constructor==Array&&f.length==3){return f}if(e=/rgb\(\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*,\s*([0-9]{1,3})\s*\)/.exec(f)){return[parseInt(e[1]),parseInt(e[2]),parseInt(e[3])]}if(e=/rgb\(\s*([0-9]+(?:\.[0-9]+)?)\%\s*,\s*([0-9]+(?:\.[0-9]+)?)\%\s*,\s*([0-9]+(?:\.[0-9]+)?)\%\s*\)/.exec(f)){return[parseFloat(e[1])*2.55,parseFloat(e[2])*2.55,parseFloat(e[3])*2.55]}if(e=/#([a-fA-F0-9]{2})([a-fA-F0-9]{2})([a-fA-F0-9]{2})/.exec(f)){return[parseInt(e[1],16),parseInt(e[2],16),parseInt(e[3],16)]}if(e=/#([a-fA-F0-9])([a-fA-F0-9])([a-fA-F0-9])/.exec(f)){return[parseInt(e[1]+e[1],16),parseInt(e[2]+e[2],16),parseInt(e[3]+e[3],16)]}if(e=/rgba\(0, 0, 0, 0\)/.exec(f)){return a.transparent}return a[d.trim(f).toLowerCase()]}function c(g,e){var f;do{f=d.css(g,e);if(f!=""&&f!="transparent"||d.nodeName(g,"body")){break}e="backgroundColor"}while(g=g.parentNode);return b(f)}var a={aqua:[0,255,255],azure:[240,255,255],beige:[245,245,220],black:[0,0,0],blue:[0,0,255],brown:[165,42,42],cyan:[0,255,255],darkblue:[0,0,139],darkcyan:[0,139,139],darkgrey:[169,169,169],darkgreen:[0,100,0],darkkhaki:[189,183,107],darkmagenta:[139,0,139],darkolivegreen:[85,107,47],darkorange:[255,140,0],darkorchid:[153,50,204],darkred:[139,0,0],darksalmon:[233,150,122],darkviolet:[148,0,211],fuchsia:[255,0,255],gold:[255,215,0],green:[0,128,0],indigo:[75,0,130],khaki:[240,230,140],lightblue:[173,216,230],lightcyan:[224,255,255],lightgreen:[144,238,144],lightgrey:[211,211,211],lightpink:[255,182,193],lightyellow:[255,255,224],lime:[0,255,0],magenta:[255,0,255],maroon:[128,0,0],navy:[0,0,128],olive:[128,128,0],orange:[255,165,0],pink:[255,192,203],purple:[128,0,128],violet:[128,0,128],red:[255,0,0],silver:[192,192,192],white:[255,255,255],yellow:[255,255,0],transparent:[255,255,255]}})(jQuery);
+</script>
+
+</body>
+</html>
