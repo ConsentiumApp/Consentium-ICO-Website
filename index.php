@@ -410,7 +410,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-8 col-sm-10 col-xs-9 v-pad" style="text-align:left;">
               <br>
               <h3 style="color:#ba933b;">Public Sale</h3>
-              <h3>1 Apr 2018 - 15 Apr 2018</h3>
+              <h3>15 Apr 2018 - 30 Apr 2018</h3>
             </div>
           </div>
         </div>
@@ -418,7 +418,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="tokens-container">
       <br>
       <br>
-      <h2>PUBLIC SALES ENDS IN</h2>
+      <h2>PUBLIC SALE STARTS IN</h2>
       <br>
       <br>
       <div id="new_year"></div>
