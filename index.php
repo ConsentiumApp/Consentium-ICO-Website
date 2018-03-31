@@ -279,8 +279,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Platform for Communities</h1>
     <h3>Where Users Earn from Group Chats They Create</h3>
     <br>
-		<a href="https://kyc.novum.capital/consentium/sign-up.php" class="btn light-btn">Participate</a>
-		<br>
     <br>
     <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" class="android" target="_blank"><img src="img/android-btn.png" alt=""></a>
     <br>
@@ -443,22 +441,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <br>
     <div class="progress-container">
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:83%">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
       </div>
     </div>
     <ul class="progress-number">
-      <li class="stats">Start</li>
       <li class="stats">0M</li>
-      <li class="stats">10M</li>
-      <li>20M</li>
-			<li>30M</li>
-			<li>42M</li>
+      <li class="stats">14M</li>
+      <li>28M</li>
+      <li>42M</li>
+
     </ul>
     </div>
     <br>
     <br>
     <br>
-    <a href="https://kyc.novum.capital/consentium/sign-up.php" class="btn light-btn">Participate</a>
+    <a href="#notify" class="btn light-btn">Participate</a>
     </div>
     </div>
   </div>
