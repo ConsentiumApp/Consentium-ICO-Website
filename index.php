@@ -280,6 +280,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h3>Where Users Earn from Group Chats They Create</h3>
     <br>
 		<a href="https://kyc.novum.capital/consentium/sign-up.php" class="btn light-btn">Participate</a>
+		<br>
     <br>
     <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" class="android" target="_blank"><img src="img/android-btn.png" alt=""></a>
     <br>
@@ -419,7 +420,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="tokens-container">
       <br>
       <br>
-      <h2>PUBLIC SALES STARTS IN</h2>
+      <h2>PUBLIC SALES ENDS IN</h2>
       <br>
       <br>
       <div id="new_year"></div>
@@ -447,9 +448,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <ul class="progress-number">
       <li class="stats">Start</li>
-      <li class="stats">1M</li>
-      <li class="stats">5M</li>
-      <li>12M</li>
+      <li class="stats">0M</li>
+      <li class="stats">10M</li>
+      <li>20M</li>
+			<li>30M</li>
+			<li>42M</li>
     </ul>
     </div>
     <br>
@@ -1180,7 +1183,7 @@ $(function() {
 		//var NY = Math.round((new Date('1/01/2015 00:00:01')).getTime()/1000);
 		$('#new_year').flipcountdown({
 			size:'md',
-			beforeDateTime:'03/31/2018 00:00:01'
+			beforeDateTime:'04/15/2018 18:00:01'
 			/*tick:function(){
 				var nol = function(h){
 					return h>9?h:'0'+h;
