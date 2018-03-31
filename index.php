@@ -279,6 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Platform for Communities</h1>
     <h3>Where Users Earn from Group Chats They Create</h3>
     <br>
+		<a href="https://kyc.novum.capital/consentium/sign-up.php" class="btn light-btn">Participate</a>
     <br>
     <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/t5qFwv" class="android" target="_blank"><img src="img/android-btn.png" alt=""></a>
     <br>
@@ -454,7 +455,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <br>
     <br>
     <br>
-    <a href="#notify" target="_blank" class="btn light-btn">Participate</a>
+    <a href="https://kyc.novum.capital/consentium/sign-up.php" class="btn light-btn">Participate</a>
     </div>
     </div>
   </div>
