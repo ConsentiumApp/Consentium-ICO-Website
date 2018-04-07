@@ -361,7 +361,7 @@
             <div class="col-md-8 col-sm-10 col-xs-9 v-pad" style="text-align:left;">
               <br>
               <h3 style="color:#ba933b;">公开销售</h3>
-              <h3>1/04/2018 - 15/04/2018</h3>
+              <h3>15/04/2018 - 30/04/2018</h3>
             </div>
           </div>
         </div>
@@ -392,14 +392,14 @@
     <br>
     <div class="progress-container">
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:83.333%">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
       </div>
     </div>
     <ul class="progress-number">
       <li class="stats">0M</li>
-      <li class="stats">1M</li>
-      <li class="stats">5M</li>
-      <li>12M</li>
+      <li class="stats">14M</li>
+      <li class="stats">28M</li>
+      <li>42M</li>
     </ul>
     </div>
     <br>
@@ -1108,7 +1108,7 @@ $(function() {
 		//var NY = Math.round((new Date('1/01/2015 00:00:01')).getTime()/1000);
 		$('#new_year').flipcountdown({
 			size:'md',
-			beforeDateTime:'04/15/2018 00:00:01'
+			beforeDateTime:'04/15/2018 18:00:01'
 			/*tick:function(){
 				var nol = function(h){
 					return h>9?h:'0'+h;
