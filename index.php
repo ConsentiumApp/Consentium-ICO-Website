@@ -916,6 +916,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Group CEO of iFashion Group, leading regional fashion and lifestyle retail company. Co-founded Dressabelle and Megafash.</p>
         </a>
       </div>
+	<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+        <a href="#nizam" class="open-popup-link">
+        <div class="team-thumb"><img src="img/team-nizam.jpg" alt=""></div>
+        <br>
+        <br>
+        <h3>Nizam Ismail</h3>
+	<p>Legal Advisor</p>
+        <p>Co-Founder, RHT Compliance, Solutions and Partner and Head, Regulatory Practice, RHTLaw Taylor Wessing</p>
+        </a>
+      </div>
     </div>
 <!---------- Team end ------------> 
     <!--
@@ -1121,6 +1131,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Prior to this, she also founded an organic frozen food brand, T’empa, overseeing its launch, product development and sale of the business.</p>
 </div>
 <!---------- Popup 4 END ------------> 
+<!---------- Popup 5 START ------------>
+<div id="nizam" class="white-popup mfp-hide sans">
+  <h2>Nizam Ismail</h2>
+  <h3>Legal Advisor</h3>
+  <br>
+  <br>
+  <p>Nizam spearheads RHTLaw Compliance Solutions, a dedicated financial services compliance consultancy/solutions provider in Singapore, Malaysia and Indonesia (PT RHT Solusi Indonesia).</p>
+<br>
+	<p>He also heads up the Financial Services Practice of RHTLaw Taylor Wessing LLP.</p>
+<br>
+<p>Nizam has worked with regulators, exchanges, markets, banks, broker-dealers, commodities firms, fund managers, trust companies, financial advisers. He has worked with a variety of FinTech firms, cryptocurrency firms and ICO/TGE issuers.</p>
+<br>
+<p>He has more than 25 years of experience and expertise in financial services regulatory compliance and litigation.</p>
+<br>
+<p>He was formerly Executive Director and Head of Compliance for Southeast Asia in Morgan Stanley Singapore before joining the Firm. Nizam was also Senior Vice President and Head of Compliance for Southeast Asia at Lehman Brothers Singapore, Executive Director (Legal and Compliance) in Nomura Singapore and Senior Legal Counsel of Citigroup (Corporate and Investment Bank).</p>
+<br>
+<p>Nizam spent six years as a regulator at the Monetary Authority of Singapore, where he was Deputy Director and Head of the Market Conduct Policy Division. There, Nizam worked on various policy reviews relating to the capital markets, including various policy reviews leading to the enactment of the Securities and Futures Act, the Financial Advisers Act and the Business Trust Act. Nizam also conducted a review on the application of competition law on financial services. Nizam also worked with other international financial services regulators.</p>
+<br>
+<p>Having graduated from the NUS Law School in 1991 on a Public Service Commission Local Merit Scholarship, Nizam started his legal career as Deputy Public Prosecutor/State Counsel at the Commercial Affairs Department, where he prosecuted high-profile corporate and market misconduct cases including insider trading, market rigging and fraud.</p>
+<br>
+	<p>Nizam has spoken and conducted seminars in Asia.</p>
+
+</div>
+<!---------- Popup 5 END ------------> 
 <!---------- Team Popup content end------------> 
 
 	<!---------- Privacy policy popup ------------>
