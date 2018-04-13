@@ -814,7 +814,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="h-line" style="display:inline-block;"></div>
             <div class="row">
               <div class="col-md-3 col-sm-3 col-xs-6 v-pad">
-                <div class="media-logo"><a href="https://thebitcoinnews.com/fintech-chat-app-consentium-launches-in-asia-raises-usd10-million-in-funding/" target="_blank"><img src="img/media-bitcoinnews.png"></img></a></div>
+                <div class="media-logo"><a href="https://cointelegraph.com/press-releases/consentium-raises-additional-us-10-million-to-build-first-of-its-kind-fintech-chat-app" target="_blank"><img src="img/media-cointelegraph.png"></img></a></div>
               </div>
               <div class="col-md-3 col-sm-3 col-xs-6 v-pad">
                 <div class="media-logo"><a href="https://www.ccn.com/fintech-chat-app-consentium-launches-asia-raises-usd10-million-funding/" target="_blank"><img src="img/media-ccn.png"></img></a></div>
