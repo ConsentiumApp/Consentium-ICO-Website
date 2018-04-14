@@ -1070,6 +1070,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
 		<br><br>
           <span class="small-font"><a href="#termsofservice" class="open-popup-link" style="color:#ba933b;">Terms of Service</a></span>
+		<br>
           <span class="small-font"><a href="#privacy" class="open-popup-link" style="color:#ba933b;">Privacy Policy</a></span>
           <br><br>
           <!--- disable policies 
