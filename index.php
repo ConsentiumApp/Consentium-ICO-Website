@@ -1069,6 +1069,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="copyright">
           <span class="small-font">© 2018 ASIA FOCUS GROUP PTE LTD. All Rights Reserved.</span>
 		<br><br>
+          <span class="small-font"><a href="#termsofservice" class="open-popup-link" style="color:#ba933b;">Terms of Service</a></span>
           <span class="small-font"><a href="#privacy" class="open-popup-link" style="color:#ba933b;">Privacy Policy</a></span>
           <br><br>
           <!--- disable policies 
@@ -1163,6 +1164,63 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <br>
   <br>
   <p>By submitting your personal information to us, you consent to such information being used by us for the provision of the Services and also for us to communicate with you. </p>
+  <br>
+  <p>In the event if you do not agree for Consentium to process your data, please notify Consentium via email at <a style="color:#ba933b;" href="mailto:hello@consentium.net">hello@consentium.net.</a></p>
+</div>
+<!---------- Privacy policy popup END ------------>
+	
+<!---------- Terms of Service popup ------------>
+<div id="termsofservice" class="white-popup mfp-hide sans">
+  <h2>Terms of Service</h2>
+  <br>
+  <br>
+	<h3>TERMS OF SERVICES – USER</h3>
+	<br>
+<p>This Terms of Service (“Terms”) serves as a legal contract between Asia Focus Group Pte Ltd (“AFG”) and yourself (“You”). By accessing or using any of the services provided by AFG (“Service”) on our Website (“Site”), you agree that you accept to the terms and conditions contained within this Terms. If you do not agree to these Terms, do not use the Service.</p>
+<br>
+	<h3>INTELLECTUAL PROPERTY RIGHTS</h3>
+<br>
+<p>AFG owns and retains all rights, title and interest in and to the Services and the Site, including but not limited to all software information, data and Intellectual Property related to the aforementioned. Any reproduction or redistribution of the Service or the Service content is strictly prohibited, and we reserve the right to terminate our Service to you if you were to violate the Terms.</p>
+<br>
+	<h3>OUR SERVICES & ITS USAGE</h3>
+<br>
+<p>AFG operates the Site to support the Consentium Token Sale (“Token Sale”). The Site allows you to purchase CSM Token. Please see the whitepaper available on the Site for details of the CSM Token. Any sale of CSM Token is subject to the terms and conditions set out in the Whitepaper. You are required to read and understand the Whitepaper, including the terms and conditions, before participating in the Token Sale or purchasing CSM Token. AFG reserve the right to control, manage and/or modify the Whitepaper and the terms and conditions of the Token Sale sold via our Services. As such, you are strongly advised to refer to the latest Whitepaper based on the version number and date. For the avoidance of doubt, AFG is not obliged to notify you of any changes to the Whitepaper.</p>
+<br>
+	<h3>THIRD PARTY WEBSITES</h3>
+<br>
+<p>AFG does not exercise any control over any third-party websites or services which may be available on the Site. Therefore, you agree that AFG will is not liable for any services provided by the third-party website that you were directed to and you shall be subjected to the terms and conditions of the respective third party. You agree that you will be using the third-party services at your own risk. Hence, AFG will not be liable for any losses, damages, costs or other expenses arising from your use of third party services.</p>
+<br>
+	<h3>REGISTERING FOR AN ACCOUNT</h3>
+<br>
+<p>In order to participate in our CSM Token sales and/or to use CA services, you may be asked to fill up a form (“Account”) as it is necessary to obtain certain information about you in order to ensure that the purchase of CSM Token by you complies with applicable law or regulation. You may be required to provide certain information and this information shall include and is not limited to your name, email address, nationality, country of residence and relevant supporting documentation. You acknowledged that you shall provide this information as per requested as well as to provide further information promptly upon request to complete the purchase. You also acknowledge that all information provided shall be accurate, current and it is your sole duty to ensure that the information provided shall be updated constantly to keep it accurate, current and complete.</p>
+<br>
+<p>AFG reserves the right to suspend your registration or refuse your purchase of CSM Token if: (a) we do not receive any information from you that is able to determine that it is permissible to sell MT to you under applicable laws and regulations; (b) if it is suspected that information provided by you is inaccurate, not current or incomplete.</p>
+<br>
+	<h3>PARTICIPATION TERMINATION</h3>
+<br>
+<p>AFG reserves the right to terminate your participation without prior notice, if you: (i) violate the Terms, or; (ii) use the account for illegal or improper purposes, or; (iii) use the Service for illegal or improper purposes, or; (iv) infringe a third party intellectual property rights. Once your account has been terminated or suspended due to the afore-mentioned reasons, all benefits and user’s right shall be revoked, and no refund will be granted to you.</p>
+<br>
+	<h3>REPRESENTATIONS AND WARRANTIES</h3>
+<br>
+<p>You warrant that you will not use our services for any fraudulent, unlawful or abusive purpose.</p>
+<br>
+<p>The content of the Site is provided on an “as-is-where-is” basis without representations or warranties of any kind. AFG makes no warranties or representation about the accuracy or completeness of the content of the Service and the Site and assume no liability or responsibility for any loss, damage, and/or penalty faced by you for using our Services and/or the Site. AFG does not guarantee and is not responsible to perform any verification of information provided by you, the accuracy of your information provided is your sole responsibility.</p>
+<br>
+	<h3>DISCLAIMER</h3>
+<br>
+<p>AFG does not warrant that the Service and/or Site are error free or will operate without interruption or are compatible with all equipment and software configurations. AFG shall not be liable for any loss whatsoever arising from the use of the Service or Site. AFG shall not be responsible for any system failures or other interruptions that may affect your purchase process.</p>
+<br>
+	<h3>LIMITATION OF LIABILITY</h3>
+<br>
+<p>AFG shall not be liable to you or any third party under any circumstances (including negligence or breach of statutory duty) or otherwise for any indirect or consequential loss or damage of any kind including punitive or exemplary damages or losses, including but not limited to damages for loss of profits, goodwill, use, data or other intangible losses which may be incurred in connection with AFG or its services and site. AFG shall not be liable for any unauthorised transactions arising from unauthorised, illegal or fraudulent use of the service and site.</p>
+<br>
+	<h3>MODIFICATIONS</h3>
+<br>
+<p>AFG reserves the right, in its sole discretion, to revise or modify these Terms at any time, and you agree to be bound by such revisions or modifications. You are responsible for viewing these Terms periodically. Your continued use of the Site or Service after a change or modification of these Terms will constitute your acceptance of the revised Terms. If you do not agree to the modified Terms, you should refrain from using our Services and the Site.</p>
+<br>
+	<h3>GOVERNING LAW AND DISPUTE RESOLUTION</h3>
+<br>
+	<p>The Terms shall be governed by the law of the Republic of Singapore.</p>
   <br>
   <p>In the event if you do not agree for Consentium to process your data, please notify Consentium via email at <a style="color:#ba933b;" href="mailto:hello@consentium.net">hello@consentium.net.</a></p>
 </div>
