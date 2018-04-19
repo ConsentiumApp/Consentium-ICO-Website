@@ -926,8 +926,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Co-Founder, RHT Compliance, Solutions and Partner and Head, Regulatory Practice, RHTLaw Taylor Wessing</p>
         </a>
       </div>
-    </div>
-	  <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
         <a href="#ekaterina" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-ekaterina.jpg" alt=""></div>
         <br>
@@ -937,6 +936,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>15 years experience in Growth Management, Previously a member of the growth teams at Facebook, Instagram and WhatsApp</p>
         </a>
       </div>
+    </div>
+	  
     </div>
 <!---------- Team end ------------> 
     <!--
