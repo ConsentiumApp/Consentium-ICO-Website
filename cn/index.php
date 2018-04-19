@@ -869,6 +869,16 @@
         <br>
         <h3>Nizam Ismail</h3>
 	<p>法律顾问</p>
+<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+        <a href="#ekaterina" class="open-popup-link">
+        <div class="team-thumb"><img src="../img/team-ekaterina.jpg" alt=""></div>
+        <br>
+        <br>
+        <h3>Ekaterina Skorobogatova</h3>
+		<p>顾问</p>
+        </a>
+      </div>
+    </div>
         </a>
       </div>
     </div>
@@ -1095,6 +1105,21 @@
 
 </div>
 <!---------- Popup 5 END ------------> 
+<!---------- Popup 6 START ------------>
+<div id="ekaterina" class="white-popup mfp-hide sans">
+  <h2>Ekaterina Skorobogatova</h2>
+  <h3>Advisor</h3>
+  <br>
+  <br>
+<p>Ekaterina have been working in growth management for almost 15 years now and she was a member of growth teams at Facebook, Instagram and WhatsApp. Her specialities includes Product Development, Partnerships, Data Visualization, Data Analytics, Native Mobile & Web Applications.</p>
+<br>
+<p>Ekaterina had close to 3 years of experience as the Head of Growth for Facebook Russia, where she was single handedly responsible for coming up with the growth strategy for Russia. Ekaterina was then made the Mobile Growth Lead for Europe, Middle East and Africa where she worked on product launches and internationalization strategies for both Facebook Messenger and Instagram. During her last year in Facebook, Ekaterina launched the first internet.org deployment in Zambia, providing free basic internet to people from all walks of life in Zambia.</p>
+<br>
+<p>After WhatsApp was acquired by Facebook, Ekaterina went on to become the Growth Manager for WhatsApp Inc where she worked on a variety of products and ares of strategic focus for WhatsApp like the launch of payment and business messaging.</p>
+<br>
+<p>Her experience at Facebook, Instagram and WhatsApp growth teams taught her to seek out and solve for the bottlenecks that prevent companies from growing faster - be it team structure, access to the right data, product development process or understanding of the local markets they are trying to grow in.</p>
+</div>
+<!---------- Popup 6 END ------------> 
 <!---------- Team Popup content end------------> 
 
 <script>
