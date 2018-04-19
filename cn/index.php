@@ -864,24 +864,21 @@
       </div>
 	<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
         <a href="#nizam" class="open-popup-link">
-        <div class="team-thumb"><img src="../img/team-nizam.jpg" alt=""></div>
+		<div class="team-thumb"><img src="../img/team-nizam.jpg" alt=""></div></a>
         <br>
         <br>
         <h3>Nizam Ismail</h3>
 	<p>法律顾问</p>
+		</div>
 <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
         <a href="#ekaterina" class="open-popup-link">
-        <div class="team-thumb"><img src="../img/team-ekaterina.jpg" alt=""></div>
+        <div class="team-thumb"><img src="../img/team-ekaterina.jpg" alt=""></div> </a>
         <br>
         <br>
         <h3>Ekaterina Skorobogatova</h3>
 		<p>顾问</p>
-        </a>
+       
       </div>
-    </div>
-        </a>
-      </div>
-    </div>
     </div>
 <!---------- Team end ------------> 
     <!--
