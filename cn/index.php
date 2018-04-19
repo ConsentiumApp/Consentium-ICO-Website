@@ -396,10 +396,10 @@
       </div>
     </div>
     <ul class="progress-number">
-      <li class="stats">0M</li>
-      <li class="stats">14M</li>
-      <li class="stats">28M</li>
-      <li>42M</li>
+      <li class="stats">$0M</li>
+      <li class="stats">$14M</li>
+      <li class="stats">$28M</li>
+      <li>$42M</li>
     </ul>
     </div>
     <br>
