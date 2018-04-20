@@ -449,7 +449,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     <ul class="progress-number">
-      <li class="stats"><0M/li>
+      <li class="stats">0M</li>
       <li class="stats">14M</li>
       <li class="stats">28M</li>
       <li>42M</li>
