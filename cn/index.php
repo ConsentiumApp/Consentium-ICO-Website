@@ -400,10 +400,10 @@
       </div>
     </div>
     <ul class="progress-number">
-      <li class="stats">$0M</li>
-      <li class="stats">$14M</li>
-      <li class="stats">$28M</li>
-      <li>$42M</li>
+      <li class="stats">0M</li>
+      <li class="stats">14M</li>
+      <li class="stats">28M</li>
+      <li>42M</li>
     </ul>
     </div>
     <br>
@@ -1168,7 +1168,7 @@ $(function() {
 		//var NY = Math.round((new Date('1/01/2015 00:00:01')).getTime()/1000);
 		$('#new_year').flipcountdown({
 			size:'md',
-			beforeDateTime:'04/20/2018 16:00:01'
+			beforeDateTime:'04/20/2018 14:00:01'
 			/*tick:function(){
 				var nol = function(h){
 					return h>9?h:'0'+h;
