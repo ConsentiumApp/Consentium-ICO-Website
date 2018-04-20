@@ -233,6 +233,7 @@
     <br>
     <h1>多加密货币群组盈<br>利型聊天应用程序</h1>
     <h3>专为社区而立的平台</h3>
+<a href="https://www.consentium.net/kyc" target="_blank" class="btn light-btn">加入</a>
     <br>
     <br>
     <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a> &nbsp;&nbsp;<a href="https://i.diawi.com/zVgAvV" class="android" target="_blank"><img src="../img/android-btn.png" alt=""></a>
