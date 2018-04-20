@@ -1168,7 +1168,7 @@ $(function() {
 		//var NY = Math.round((new Date('1/01/2015 00:00:01')).getTime()/1000);
 		$('#new_year').flipcountdown({
 			size:'md',
-			beforeDateTime:'04/20/2018 18:00:01'
+			beforeDateTime:'04/20/2018 16:00:01'
 			/*tick:function(){
 				var nol = function(h){
 					return h>9?h:'0'+h;
