@@ -425,30 +425,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="tokens-container">
       <br>
       <br>
-      <h2>PUBLIC SALE STARTS IN</h2>
+      <h2>TOKEN SALE IS LIVE!</h2>
       <br>
-      <br>
-      <div id="new_year"></div>
-    <br>
-    <ul class="countdown">
-      <li class="days">
-        <h3>Days</h3>
-      </li>
-      <li class="hrs">
-        <h3>Hrs</h3>
-      </li>
-      <li class="mins">
-        <h3>Min</h3>
-      </li>
-      <li class="sec">
-        <h3>Sec</h3>
-      </li>
-    </ul>
     <br>
     <br>
     <div class="progress-container">
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+      <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:55%">
       </div>
     </div>
     <ul class="progress-number">
