@@ -461,7 +461,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <br>
     <br>
     <br>
-    <a href="#notify" class="btn light-btn">Participate</a>
+    <a href="https://www.consentium.net/kyc" class="btn light-btn">Participate</a>
     </div>
     </div>
   </div>
