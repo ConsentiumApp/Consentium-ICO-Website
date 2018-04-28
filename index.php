@@ -282,9 +282,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <br>
     <h1>Platform for Communities</h1>
     <h3>Where Users Earn from Group Chats They Create</h3>
-	<br>
-	<br>
-	<a href="https://www.consentium.net/kyc" target="_blank" class="btn light-btn">Participate</a>
     <br>
     <br>
     <a href="https://goo.gl/zg68sa" target="_blank" class="btn light-btn">Whitepaper</a> &nbsp;&nbsp;<a href="https://i.diawi.com/zVgAvV" class="android" target="_blank"><img src="img/android-btn.png" alt=""></a>
@@ -425,13 +422,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="tokens-container">
       <br>
       <br>
-      <h2>TOKEN SALE IS LIVE!</h2>
+      <h2>TOKEN SALE IS OVER!</h2>
       <br>
     <br>
     <br>
     <div class="progress-container">
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
       </div>
     </div>
     <ul class="progress-number">
@@ -444,7 +441,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <br>
     <br>
     <br>
-    <a href="https://www.consentium.net/kyc" class="btn light-btn">Participate</a>
     </div>
     </div>
   </div>
