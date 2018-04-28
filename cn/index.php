@@ -233,7 +233,6 @@
     <br>
     <h1>多加密货币群组盈<br>利型聊天应用程序</h1>
     <h3>专为社区而立的平台</h3>
-<a href="https://www.consentium.net/kyc" target="_blank" class="btn light-btn">加入</a>
     <br>
     <br>
     <a href="https://www.dropbox.com/s/uvpzje9ixpn5pif/%5BCN%5D%20Consentium%20Whitepaper%2009%20Feb%2018.pdf?dl=0" target="_blank" class="btn light-btn">阅读白皮书</a> &nbsp;&nbsp;<a href="https://i.diawi.com/zVgAvV" class="android" target="_blank"><img src="../img/android-btn.png" alt=""></a>
@@ -374,9 +373,10 @@
     <div class="tokens-container">
       <br>
       <br>
-      <h2>公开销售倒数</h2>
+      <h2>公开销售完毕</h2>
       <br>
       <br>
+	    <!--- 
       <div id="new_year"></div>
     <br>
     <ul class="countdown">
@@ -393,11 +393,12 @@
         <h3>秒</h3>
       </li>
     </ul>
+------>
     <br>
     <br>
     <div class="progress-container">
     <div class="progress">
-      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
       </div>
     </div>
     <ul class="progress-number">
@@ -410,7 +411,6 @@
     <br>
     <br>
     <br>
-    <a href="#notify" target="_blank" class="btn light-btn">参与</a>
     </div>
     </div>
   </div>
