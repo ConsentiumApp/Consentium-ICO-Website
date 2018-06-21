@@ -858,7 +858,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Team</h1>
     <div class="h-line" style="display:inline-block;"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+      <div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#chris" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-chris.jpg" alt=""></div>
         <br>
@@ -868,7 +868,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Technology entrepreneur for 20 years, Founded largest gaming platform in South East Asia Viwawa, Founded SoftPay, largest Mobile POS in Vietnam.
         </a>
       </div>      
-	  <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+	  <div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#lamia" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-lamia.jpg" alt=""></div>
         <br>
@@ -878,7 +878,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>10 years experience in marketing and growth, Founding member and SVP for Pangea Money Transfer. Founded T'empa, organic frozen food brand</p>
         </a>
       </div>
-	  <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+	  <div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#jeremy" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-jeremy.jpg" alt=""></div>
         <br>
@@ -888,7 +888,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Group CEO of iFashion Group, leading regional fashion and lifestyle retail company. Co-founded Dressabelle and Megafash.</p>
         </a>
       </div>
-	<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+	  </div>
+	  <div class="row">
+	<div class="col-md-6 col-sm-6 col-xs-12 v-pad">
         <a href="#nizam" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-nizam.jpg" alt=""></div>
         <br>
@@ -898,7 +900,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Co-Founder, RHT Compliance, Solutions and Partner and Head, Regulatory Practice, RHTLaw Taylor Wessing</p>
         </a>
       </div>
-<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+<div class="col-md-6 col-sm-6 col-xs-12 v-pad">
         <a href="#ekaterina" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-ekaterina.jpg" alt=""></div>
         <br>
