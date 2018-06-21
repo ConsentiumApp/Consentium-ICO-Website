@@ -855,7 +855,7 @@
       </div>
 	</div>
 <div class="row">
-	<div class="col-md-4 col-sm-4 col-xs-12 v-pad">
+	<div class="col-md-6 col-sm-6 col-xs-12 v-pad">
         <a href="#nizam" class="open-popup-link">
 	<div class="team-thumb"><img src="../img/team-nizam.jpg" alt=""></div></a>
         <br>
@@ -863,7 +863,7 @@
         <h3>Nizam Ismail</h3>
 	<p>法律顾问</p>
 		</div>
-<div class="col-md-4 col-sm-4 col-xs-12 v-pad">
+<div class="col-md-6 col-sm-6 col-xs-12 v-pad">
         <a href="#ekaterina" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-ekaterina.jpg" alt=""></div> </a>
         <br>
