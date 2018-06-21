@@ -826,7 +826,7 @@
     <h1>团队</h1>
     <div class="h-line" style="display:inline-block;"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+      <div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#chris" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-chris.jpg" alt=""></div>
         <br>
@@ -835,7 +835,7 @@
         <p>首席技术官</p>
         </a>
       </div>
-	<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+	<div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#lamia" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-lamia.jpg" alt=""></div>
         <br>
@@ -844,7 +844,7 @@
         <p>首席营销官</p>
         </a>
       </div>
-      <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+      <div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#jeremy" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-jeremy.jpg" alt=""></div>
         <br>
@@ -855,7 +855,7 @@
       </div>
 	</div>
 <div class="row">
-	<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+	<div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#nizam" class="open-popup-link">
 	<div class="team-thumb"><img src="../img/team-nizam.jpg" alt=""></div></a>
         <br>
@@ -863,7 +863,7 @@
         <h3>Nizam Ismail</h3>
 	<p>法律顾问</p>
 		</div>
-<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
+<div class="col-md-4 col-sm-4 col-xs-12 v-pad">
         <a href="#ekaterina" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-ekaterina.jpg" alt=""></div> </a>
         <br>
