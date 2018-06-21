@@ -858,16 +858,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>Team</h1>
     <div class="h-line" style="display:inline-block;"></div>
     <div class="row">
-			<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
-        <a href="#hal" class="open-popup-link">
-        <div class="team-thumb"><img src="img/team-hal.jpg" alt=""></div>
-        <br>
-        <br>
-        <h3>Hal Bame</h3>
-        <p>Co-Founder</p>
-        <p>15 years experience in eSports, Managing Director for ESL South East Asia. Co-Founded Nemesis, gaming platform for emerging markets.</p>
-        </a>
-      </div>
       <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
         <a href="#chris" class="open-popup-link">
         <div class="team-thumb"><img src="img/team-chris.jpg" alt=""></div>
