@@ -826,15 +826,7 @@
     <h1>团队</h1>
     <div class="h-line" style="display:inline-block;"></div>
     <div class="row">
-			<div class="col-md-3 col-sm-3 col-xs-12 v-pad">
-        <a href="#hal" class="open-popup-link">
-        <div class="team-thumb"><img src="../img/team-hal.jpg" alt=""></div>
-        <br>
-        <br>
-        <h3>Hal Bame</h3>
-        <p>联合创始人</p>
-        </a>
-      </div>
+
       <div class="col-md-3 col-sm-3 col-xs-12 v-pad">
         <a href="#chris" class="open-popup-link">
         <div class="team-thumb"><img src="../img/team-chris.jpg" alt=""></div>
